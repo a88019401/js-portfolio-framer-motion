@@ -3,7 +3,7 @@
 
 自學重點 2023/4/23
 
-1. 將簡單的js檔案轉到next.js
+1. 將簡單的js檔案轉到next.js，把大一到大二的作品截圖下來整理成卡片(cards)
 2. 本次next.js與兩三年前不同 在使用 Next.js 的 <Link> 元件時出現的。錯誤訊息指出在 <Link> 元件的子元素中有一個 <a> 元素，但在 Next.js 中，<Link> 元件會自動轉換為 <a> 元素，因此不需要在 <Link> 的子元素中使用 <a>。
 
 要修復這個問題，可以將 <a> 元素從 <Link> 的子元素中移除，或是使用 <Link legacyBehavior> 替代 <Link> 元件，這樣就可以在 <Link> 的子元素中使用 <a> 了。參考下面的範例：
@@ -25,7 +25,7 @@
 
 3. 遇到環境變數的問題 path，不過已經順利排除了。
 4. 維護專案的心力跟打造一個新專案差不多，很多當初寫的東西都不相容了
-5. 佈署上Vecel
+5. 佈署上Vecel (https://js-portfolio-framer-motion-909410028.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
