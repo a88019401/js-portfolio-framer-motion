@@ -1,7 +1,30 @@
-本學期老師教了react.js 
-剛好把這個專案拿來整理，把原本舊的js轉移到next.js上面 
-原本想轉 react.js 但 無奈目前真的太忙了 先用輕量化的 next.js吧
+本學期老師教了react.js，剛好把這個之前做到一半的專案拿來整理，作為本次的自學網頁，把原本舊的js轉移到next.js上面 
+原本想轉 react.js，但無奈目前真的太忙了，先用輕量化的 next.js吧
 
+自學重點 2023/4/23
+
+1. 將簡單的js檔案轉到next.js
+2. 本次next.js與兩三年前不同 在使用 Next.js 的 <Link> 元件時出現的。錯誤訊息指出在 <Link> 元件的子元素中有一個 <a> 元素，但在 Next.js 中，<Link> 元件會自動轉換為 <a> 元素，因此不需要在 <Link> 的子元素中使用 <a>。
+
+要修復這個問題，可以將 <a> 元素從 <Link> 的子元素中移除，或是使用 <Link legacyBehavior> 替代 <Link> 元件，這樣就可以在 <Link> 的子元素中使用 <a> 了。參考下面的範例：
+
+// 使用 <Link> 元件時出現錯誤
+<Link href="/about">
+  <a>About</a>
+</Link>
+
+// 修復方法一：移除 <a> 元素
+<Link href="/about">
+  About
+</Link>
+
+// 修復方法二：使用 <Link legacyBehavior>
+<Link href="/about" legacyBehavior>
+  <a>About</a>
+</Link>
+
+3. 遇到環境變數的問題 path，不過已經順利排除了。
+4. 維護專案的心力跟打造一個新專案差不多，很多當初寫的東西都不相容了
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
