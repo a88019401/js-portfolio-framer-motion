@@ -25,6 +25,7 @@
 
 3. 遇到環境變數的問題 path，不過已經順利排除了。
 4. 維護專案的心力跟打造一個新專案差不多，很多當初寫的東西都不相容了
+5. 佈署上Vecel
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
