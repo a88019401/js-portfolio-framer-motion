@@ -11,13 +11,13 @@ export default function Product() {
     <div className={styles.container}>
       <motion.h1 layoutId="header">{product}</motion.h1>
       <Link href="/">
-        <div><a>
+        <div>
           <motion.img
             layoutId={product}
             className={styles["big-image"]}
             src={product + ".PNG"}
           />
-        </a>
+        
         </div>
       </Link>
     </div>

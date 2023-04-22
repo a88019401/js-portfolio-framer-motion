@@ -1,3 +1,8 @@
+本學期老師教了react.js 
+剛好把這個專案拿來整理，把原本舊的js轉移到next.js上面 
+原本想轉 react.js 但 無奈目前真的太忙了 先用輕量化的 next.js吧
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
